@@ -1,0 +1,29 @@
+.header {
+  padding: 15px 0;
+  background-color: rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(92, 160, 255);
+  margin-bottom: 30px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header__text {
+  color: rgb(92, 160, 255);
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.header__text span {
+  font-weight: 700;
+  font-size: 34px;
+  margin-right: 8px;
+}

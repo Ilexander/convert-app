@@ -1,0 +1,75 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
+}
+
+ul,
+ol,
+button {
+  padding: 0
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0
+}
+
+ul {
+  list-style: none
+}
+
+img {
+  max-width: 100%;
+  display: block
+}
+
+input,
+button,
+textarea,
+select {
+  box-shadow: none;
+  outline: transparent;
+  font: inherit
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer
+}
+
+button {
+  background-color: transparent;
+  outline-color: transparent;
+  border: none;
+  cursor: pointer
+}
+
+
+body {
+  color: white;
+  font-family: 'Open Sans',
+    sans-serif;
+  background-color: rgb(251, 251, 251);
+}
